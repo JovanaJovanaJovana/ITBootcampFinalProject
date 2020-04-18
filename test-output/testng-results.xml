@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-12T11:03:45 CEST" name="My store" finished-at="2020-04-12T11:04:44 CEST" duration-ms="59073">
+    <groups>
+    </groups>
+    <test started-at="2020-04-12T11:03:45 CEST" name="Home Test" finished-at="2020-04-12T11:04:03 CEST" duration-ms="18849">
+      <class name="myStore.test.HomeTest">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:myStore.test.HomeTest@71c8becc]" started-at="2020-04-12T11:03:45 CEST" name="createDriver" finished-at="2020-04-12T11:03:47 CEST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="testWomenSubmenu()[pri:1, instance:myStore.test.HomeTest@71c8becc]" started-at="2020-04-12T11:03:47 CEST" name="testWomenSubmenu" finished-at="2020-04-12T11:03:54 CEST" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenSubmenu -->
+        <test-method signature="testDressesSubmenu()[pri:2, instance:myStore.test.HomeTest@71c8becc]" started-at="2020-04-12T11:03:54 CEST" name="testDressesSubmenu" finished-at="2020-04-12T11:03:57 CEST" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDressesSubmenu -->
+        <test-method signature="testFinalUrl()[pri:3, instance:myStore.test.HomeTest@71c8becc]" started-at="2020-04-12T11:03:57 CEST" name="testFinalUrl" finished-at="2020-04-12T11:04:03 CEST" duration-ms="6709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinalUrl -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:myStore.test.HomeTest@71c8becc]" started-at="2020-04-12T11:04:03 CEST" name="closeDriver" finished-at="2020-04-12T11:04:03 CEST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- myStore.test.HomeTest -->
+    </test> <!-- Home Test -->
+    <test started-at="2020-04-12T11:04:08 CEST" name="Summer Dresses Test" finished-at="2020-04-12T11:04:21 CEST" duration-ms="12801">
+      <class name="myStore.test.SummerDressesTest">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:myStore.test.SummerDressesTest@1d082e88]" started-at="2020-04-12T11:04:08 CEST" name="createDriver" finished-at="2020-04-12T11:04:10 CEST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="testChoosingFirstDress()[pri:0, instance:myStore.test.SummerDressesTest@1d082e88]" started-at="2020-04-12T11:04:10 CEST" name="testChoosingFirstDress" finished-at="2020-04-12T11:04:21 CEST" duration-ms="10934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChoosingFirstDress -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:myStore.test.SummerDressesTest@1d082e88]" started-at="2020-04-12T11:04:21 CEST" name="closeDriver" finished-at="2020-04-12T11:04:21 CEST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- myStore.test.SummerDressesTest -->
+    </test> <!-- Summer Dresses Test -->
+    <test started-at="2020-04-12T11:04:26 CEST" name="Add to Cart Test" finished-at="2020-04-12T11:04:44 CEST" duration-ms="17318">
+      <class name="myStore.test.AddToCartTest">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:myStore.test.AddToCartTest@2805c96b]" started-at="2020-04-12T11:04:26 CEST" name="createDriver" finished-at="2020-04-12T11:04:28 CEST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="testAddToCart()[pri:1, instance:myStore.test.AddToCartTest@2805c96b]" started-at="2020-04-12T11:04:28 CEST" name="testAddToCart" finished-at="2020-04-12T11:04:39 CEST" duration-ms="11584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method signature="testProceedToCheckoutBtn()[pri:2, instance:myStore.test.AddToCartTest@2805c96b]" started-at="2020-04-12T11:04:39 CEST" name="testProceedToCheckoutBtn" finished-at="2020-04-12T11:04:43 CEST" duration-ms="4152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckoutBtn -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:myStore.test.AddToCartTest@2805c96b]" started-at="2020-04-12T11:04:43 CEST" name="closeDriver" finished-at="2020-04-12T11:04:44 CEST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- myStore.test.AddToCartTest -->
+    </test> <!-- Add to Cart Test -->
+  </suite> <!-- My store -->
+</testng-results>

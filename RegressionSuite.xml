@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="My store">
+
+	<test name="Home Test">
+		<classes>
+			<class name="myStore.test.HomeTest" />
+		</classes>
+	</test>
+	
+	<test name="Summer Dresses Test">
+		<classes>
+			<class name="myStore.test.SummerDressesTest" />
+		</classes>
+	</test>
+	
+	<test name="Add to Cart Test">
+		<classes>
+			<class name="myStore.test.AddToCartTest" />
+		</classes>
+	</test>
+	
+	<test name="Registration Test">
+		<classes>
+			<class name="myStore.test.RegistrationTest" />
+		</classes>
+	</test>
+	
+</suite>
